@@ -239,7 +239,7 @@ st.markdown('<div class="card-title">Input</div>', unsafe_allow_html=True)
 user_input = st.text_area(
     "paragraph_input",
     height=180,
-    placeholder="For example: 'I bought 2 kg of rice and 500 ml of milk.'"
+    placeholder="For example: 'I bought 500 ml of milk.'"
 )
 
 recognize_clicked = st.button("Recognize Tokens", type="primary")
